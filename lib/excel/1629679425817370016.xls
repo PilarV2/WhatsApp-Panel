@@ -1,0 +1,56 @@
+<html>
+
+<head>
+    <title>Export Data Ke Excel Dengan PHP - www.malasngoding.com</title>
+</head>
+
+<body>
+    <style type="text/css">
+        body {
+            font-family: sans-serif;
+        }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        table th,
+        table td {
+            border: 1px solid #3c3c3c;
+            padding: 3px 8px;
+
+        }
+
+        a {
+            background: blue;
+            color: #fff;
+            padding: 8px 10px;
+            text-decoration: none;
+            border-radius: 2px;
+        }
+    </style>
+
+    
+    <center>
+        <h1>Export Data Ke Excel Dengan PHP <br /> www.401xd.com</h1>
+    </center>
+
+    <table border="1">
+        <tr>
+            <th>Nama</th>
+            <th>Nomor</th>
+            <th>Pesan Default</th>
+
+        </tr>
+                    <tr>
+                <td>mpedia</td>
+                <td>082245443322</td>
+                <td>sdfsdfa
+sfasfd
+asdfda</td>
+            </tr>
+            </table>
+</body>
+
+</html>
