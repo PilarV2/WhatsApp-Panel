@@ -7,5 +7,5 @@ $db = "railway";
 error_reporting(0);
 $koneksi = mysqli_connect($host, $username, $password, $db) or die("GAGAL");
 
-$base_url = "https://web-whatsapp-bot.herokuapp.com//wabot/";
+$base_url = "https://web-whatsapp-bot.herokuapp.com/wabot/";
 date_default_timezone_set('Asia/Jakarta');
