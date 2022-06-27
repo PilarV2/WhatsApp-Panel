@@ -112,7 +112,7 @@ function url_wa()
 {
     global $base_url;
     // return $base_url; // untuk di hosting
-    return 'http://pilardev.ddns.net:3000/'; 
+    return 'https://web-whatsapp-bot.herokuapp.com:3000/'; 
     // untuk di local
 }
 
