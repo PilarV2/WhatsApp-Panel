@@ -9,7 +9,7 @@ $data = [
 
 $curl = curl_init();
 curl_setopt_array($curl, array(
-  CURLOPT_URL => "http://localhost/wabot/api/send-message.php",
+  CURLOPT_URL => "https://web-whatsapp-bot.herokuapp.com/wabot/api/send-message.php",
   CURLOPT_RETURNTRANSFER => true,
   CURLOPT_ENCODING => "",
   CURLOPT_MAXREDIRS => 10,
