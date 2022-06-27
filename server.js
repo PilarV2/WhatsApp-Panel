@@ -46,7 +46,7 @@ const db = mysql.createConnection({
 
 // sesuaikan dengan domain yang digunakan
 const configs = {
-    port: 8080, // custom port to access server
+    port: 3000, // custom port to access server
     url_callback : 'https://web-whatsapp-bot.herokuapp.com/wabot/helper/callback.php'
 };
 // cronjob
