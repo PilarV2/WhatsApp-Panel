@@ -33,7 +33,7 @@ const cron = require('node-cron');
 
 
 app.get('*', function(req, res) {
-    res.redirect('https://web-whatsapp-bot.herokuapp.com//wabot'); //ganti dengan url domain Anda
+    res.redirect('https://web-whatsapp-bot.herokuapp.com/wabot'); //ganti dengan url domain Anda
 });
 
 //konfigurasi koneksi
@@ -47,7 +47,7 @@ const db = mysql.createConnection({
 // sesuaikan dengan domain yang digunakan
 const configs = {
     port: 80, // custom port to access server
-    url_callback : 'https://web-whatsapp-bot.herokuapp.com//wabot/helper/callback.php'
+    url_callback : 'https://web-whatsapp-bot.herokuapp.com/wabot/helper/callback.php'
 };
 // cronjob
 
